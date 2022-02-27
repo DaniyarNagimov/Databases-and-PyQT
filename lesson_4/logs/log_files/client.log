@@ -1,0 +1,31 @@
+2022-02-13 17:39:43,615 DEBUG client.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-13 17:39:50,207 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Flvb
+2022-02-13 17:39:52,241 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-02-13 17:59:21,602 DEBUG client.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-13 17:59:25,759 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: dsds
+2022-02-13 17:59:25,760 DEBUG client.py Сформировано presence сообщение для пользователя dsds
+2022-02-13 17:59:25,761 DEBUG client.py Была вызвана функция create_new_presence c параметрами ('dsds',), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-13 17:59:25,762 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1644764365.760915, 'user': {'account_name': 'dsds'}}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции main().Вызов из функции main
+2022-02-13 17:59:26,272 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции main().Вызов из функции main
+2022-02-13 17:59:26,272 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-02-13 17:59:26,273 DEBUG client.py Была вызвана функция process_response_answer c параметрами ({'response': 200},), {}. Вызов из модуля __main__. Вызов из функции main().Вызов из функции main
+2022-02-13 17:59:26,273 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-02-13 17:59:26,274 DEBUG client.py Запущены процессы
+2022-02-13 18:02:27,479 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'dsds', 'to': 'server', 'time': 1644764547.4794354, 'mess_text': 'ghbdtn'}
+2022-02-13 18:02:27,493 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'dsds', 'to': 'server', 'time': 1644764547.4794354, 'mess_text': 'ghbdtn'}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции create_message
+2022-02-13 18:02:27,493 INFO client.py Отправлено сообщение для пользователя server
+2022-02-13 18:03:07,143 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'dsds', 'to': 'client', 'time': 1644764587.1435838, 'mess_text': 'привет'}
+2022-02-13 18:03:07,145 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'dsds', 'to': 'client', 'time': 1644764587.1435838, 'mess_text': 'привет'}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции create_message
+2022-02-13 18:03:07,145 INFO client.py Отправлено сообщение для пользователя client
+2022-02-13 18:04:15,035 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'dsds', 'to': 'dsdss', 'time': 1644764655.0358722, 'mess_text': 'привет'}
+2022-02-13 18:04:15,037 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'dsds', 'to': 'dsdss', 'time': 1644764655.0358722, 'mess_text': 'привет'}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции create_message
+2022-02-13 18:04:15,037 INFO client.py Отправлено сообщение для пользователя dsdss
+2022-02-13 18:05:00,639 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'dsds', 'to': 'dsds', 'time': 1644764700.6399958, 'mess_text': 're'}
+2022-02-13 18:05:00,641 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'dsds', 'to': 'dsds', 'time': 1644764700.6399958, 'mess_text': 're'}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции create_message
+2022-02-13 18:05:00,642 INFO client.py Отправлено сообщение для пользователя dsds
+2022-02-13 18:05:01,014 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2022-02-13 18:05:01,014 INFO client.py Получено сообщение от пользователя dsds:
+re
+2022-02-13 18:05:35,500 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 62970), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1644764735.4992182, 'account_name': 'dsds'}), {}. Вызов из модуля lesson_2.common.utils. Вызов из функции self._bootstrap_inner().Вызов из функции run
+2022-02-13 18:05:35,501 INFO client.py Завершение работы по команде пользователя.
+2022-02-13 18:05:35,653 CRITICAL client.py Потеряно соединение с сервером.
